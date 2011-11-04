@@ -47,10 +47,21 @@ int main()
         cout << points[i].x << "   " << points[i].y << endl;
     }
 
-    for(int i=0; i < SIZE; i++) {
-        for (int j=0; j<SIZE; j++) {
-
+    for(int i=0; i < SIZE-1; i++) {
+        //...
+        for (int j=i+1; j < SIZE; j++) {
+            //if(/*...*/) {
+                //...
+            //}
         }
+        //...
+    }
+
+    /**
+    * Sprawdzenie poprawnosci sortowania!
+    */
+    for(int i=0; i<SIZE; i++) {
+        cout << points[i].r << endl;
     }
     //cout << "X= " << center_point.x << " Y= " << center_point.y << endl;
 
