@@ -1,0 +1,5 @@
+Ala ma kota!
+
+A kot ma Ale.
+
+2+3 = 8;
