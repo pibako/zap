@@ -41,6 +41,16 @@ int main()
         }
     }
 
+    /*string line;
+    while(is.good()) {
+        getline(is, line);
+        if (is.good()) {
+            cout << line << endl;
+        }
+    }*/
+
+
+
     cout << "Hello world! " << is_operation('+') << endl;
     return 0;
 }
